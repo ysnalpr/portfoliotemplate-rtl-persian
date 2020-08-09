@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-family: "Iransans";
+    src: url(../fonts/IranSans/IranSans.ttf);
+    font-family: "IransansBold";
+    src: url(../fonts/IranSans/IranSansBold.ttf);
+}
+
+
+@font-face{
+    font-family: "Diba";
+    src: url(../fonts/IranSans/Diba.ttf);
+}

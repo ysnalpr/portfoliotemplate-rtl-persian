@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- Custome CSS File -->
+    <link rel="stylesheet" href="./css/style1.css">
+
+    <title>تماس با من</title>
+</head>
+<body>
+    
+    <style>
+      
+        *{
+            padding: 0;
+            margin: 0;
+            border: 0;
+            outline: 0;
+            box-sizing: border-box;
+            font-family: var(--SansBold);
+        }
+
+        body{
+            background-color: white;
+            height: 900px;
+        }
+
+        #mainFieldset{
+            margin-top: 150px;
+            padding: 2rem;
+            border: 5px solid whitesmoke;
+            border-radius: 8px;
+        }
+
+        #formFieldset {
+            padding: 1.5rem;
+            border-radius: 5px;
+        }
+
+        legend {
+            width: 109px;
+            z-index: 100;
+        }
+
+        ::placeholder {
+            color: #CAD3C8 !important;
+            opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+            color: #CAD3C8 !important;
+        }
+
+        ::-ms-input-placeholder {
+            color: #CAD3C8 !important;
+        }
+
+        @media screen and (min-width: 320px){
+            .button{
+                width: 100%;
+            }
+
+            body{
+                height: 100%;
+            }
+
+            #mainFieldset{
+                margin-top: 15px;
+            }
+        }
+
+        @media screen and (min-width: 450px){
+            body{
+                height: 100%;
+            }
+
+            #mainFieldset{
+                margin-top: 35px;
+            }
+        }   
+
+        @media screen and (min-width: 992px){
+            .submit{
+                width: 6.8rem;
+            }
+
+            #mainFieldset{
+                margin-top: 130px;
+            }
+        }
+
+        @media screen and (min-width: 992px){
+            #mainFieldset{
+                margin-top: 150px;
+            }
+        }
+
+    </style>
+
+    <!-- Start Contact Us Area -->
+
+        <div class="container">
+            <fieldset id="mainFieldset">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-12 col-lg-6 col-md-6">
+                        <form id="form">
+                            <fieldset id="formFieldset">
+                                <legend>
+                                    <a class="btn button secondary-button" style="padding: 0.4rem 0.8rem;" href="./index.html">صفحه اصلی</a>
+                                </legend>
+                                <div class="form-group">
+                                    <div class="row flex-row-reverse">
+                                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                            <label for="name" class="sr-only">firstName</label>
+                                            <input required dir="rtl" type="text" id="fName" class="form-control" placeholder="نام">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="family" class="sr-only">lastName</label>
+                                            <input required dir="rtl" type="text" id="lName" class="form-control" placeholder="نام خانوادگی">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email" class="sr-only">Email</label>
+                                    <div class="input-group">
+                                        <input required dir="rtl" class="form-control" type="email" id="owneremail" placeholder="ایمیل">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                    </div>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="sr-only">Message</label>
+                                    <textarea required dir="rtl" class="form-control" id="message" placeholder="متن شما" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn button primary-button d-block submit" style="padding: 0.4rem 2.2rem;">ارسال</button>
+                            </fieldset>
+                          </form>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6 col-md-6">
+                        <img src="./img/deal.png" alt="ContactUs" draggable="false" class="img-fluid">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    
+    <!-- End Contact Us Area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Custome JS File -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

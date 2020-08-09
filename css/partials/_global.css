@@ -1,0 +1,126 @@
+/* Global classes */
+
+.title-text{
+    line-height: 60px;
+}
+
+/* Buttons */
+
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/ 20px var(--SansBold);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    -webkit-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: #000;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    z-index: -1;
+    content: "";
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    -webkit-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--Sans);
+    text-align: justify;
+}
+
+.font-sans{
+    font-family: var(--SansBold);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.font-roboto{
+    font-family: var(--Roboto);
+}
+
+button:focus, button:active, button:hover, .btn:active, .btn.active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--Diba);
+    word-spacing: 10px;
+}
+
+.navbar-fix{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+}
+
+a, a:focus, a:active, a:hover{
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.card-body{
+    -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-secondary{
+    color: #6c757d !important;
+}
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
