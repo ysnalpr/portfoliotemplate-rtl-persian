@@ -157,16 +157,22 @@ nav{
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        clip-path: circle(70px at 90% -50%);
-        -webkit-clip-path: circle(70px at 90% -50%);
+        clip-path: circle(45px at 90% -20%);
+        -webkit-clip-path: circle(45px at 90% -20%);
+        -moz-clip-path: circle(45px at 90% -20%);
+        -o-cilp-path: circle(45px at 90% -20%);
+        -ms-clip-path: circle(45px at 90% -20%);
         -webkit-transition: all 1s ease-out;
         transition: all 1s ease-out;
         pointer-events: none;
     }
 
     .nav-links.open{
-        clip-path: circle(1000px at 90% -50%);
-        -webkit-clip-path: circle(1000px at 90% -50%);
+        clip-path: circle(1000px at 90% -20%);
+        -webkit-clip-path: circle(1000px at 90% -20%);
+        -moz-clip-path: circle(1000px at 90% -20%);
+        -o-cilp-path: circle(1000px at 90% -20%);
+        -ms-clip-path: circle(1000px at 90% -20%);
         pointer-events: all;
     } 
 
