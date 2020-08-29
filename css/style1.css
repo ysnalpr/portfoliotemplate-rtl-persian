@@ -157,16 +157,16 @@ nav{
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        clip-path: circle(70px at 90% -20%);
-        -webkit-clip-path: circle(70px at 90% -20%);
+        clip-path: circle(70px at 90% -50%);
+        -webkit-clip-path: circle(70px at 90% -50%);
         -webkit-transition: all 1s ease-out;
         transition: all 1s ease-out;
         pointer-events: none;
     }
 
     .nav-links.open{
-        clip-path: circle(1000px at 90% -20%);
-        -webkit-clip-path: circle(1000px at 90% -20%);
+        clip-path: circle(1000px at 90% -50%);
+        -webkit-clip-path: circle(1000px at 90% -50%);
         pointer-events: all;
     } 
 
